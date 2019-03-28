@@ -1,0 +1,11 @@
+framework module ElastosORGDMA {
+  umbrella header "ElastosORGDMA.h"
+
+  export *
+  module * { export * }
+}
+
+module ElastosORGDMA.Swift {
+    header "ElastosORGDMA-Swift.h"
+    requires objc
+}
